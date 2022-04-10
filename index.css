@@ -1,0 +1,34 @@
+html, body {
+    margin: 10;
+    padding: 10;
+    font-family: fantasy;
+}
+
+button{
+  font-family: fantasy;
+  background: blue;
+  color: white;
+}
+
+.grid{
+  background: #ffffe0;
+  width: 12.5em;
+  height: 12.5em;
+  border: solid 3px black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.square{
+  width: 20px;
+  height: 20px;
+}
+
+.snake{
+  background-color: green;
+}
+
+.apple{
+  background-color: blue;
+}
